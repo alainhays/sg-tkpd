@@ -1,13 +1,9 @@
 <?php
 /**
- * Sage includes
- *
- * The $sage_includes array determines the code library included in your theme.
- * Add or remove files to the array as needed. Supports child theme overrides.
- *
- * Please note that missing files will produce a fatal error.
- *
- * @link https://github.com/roots/sage/pull/1042
+ * +++++ Note for Tokopedia Developer +++++
+ * - Use this $sage_includes array block to include files
+ * - Please note that missing files will produce a fatal error. Info @link https://github.com/roots/sage/pull/1042
+ * - Place your custom code in Folder ThemeName > Lib > Custom
  */
 $sage_includes = [
   'lib/assets.php',    // Scripts and stylesheets
@@ -15,7 +11,11 @@ $sage_includes = [
   'lib/setup.php',     // Theme setup
   'lib/titles.php',    // Page titles
   'lib/wrapper.php',   // Theme wrapper class
-  'lib/customizer.php' // Theme customizer
+  'lib/customizer.php,' // Theme customizer
+  'lib/wiryo.libs.php,' // Wiryo Library
+  'lib/custom/cpt.libs.php,' // Your Custom Post Type Code Goes Here
+  'lib/custom/metabox.libs.php,' // Your Custom Metabox Code Goes Here
+  'lib/custom/custom.libs.php' // Your Custom Code Goes Here
 ];
 
 foreach ($sage_includes as $file) {

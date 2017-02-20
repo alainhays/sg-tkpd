@@ -1,6 +1,6 @@
-# [SG TKPD - Let's make our development great againt](https://tokopedia.com/)
+# [SG TKPD - Let's make our development great again](https://tokopedia.com/)
 
-SG TKPD is a WordPress starter theme based on HTML5 Boilerplate, gulp, Bower, and Bootstrap Sass, that will help you make better themes. This theme forked from sage theme starter [v8.5.0](https://github.com/roots/sage/tree/8.5.0). For Better bugs tracking you can open new issue  [https://github.com/riobahtiar/sg-tkpd/issues](https://github.com/riobahtiar/sg-tkpd/issues) 
+SG TKPD is a WordPress starter theme based on HTML5 Boilerplate, gulp, Bower, and Bootstrap Sass, that will help you make better themes developement. This theme forked from [Sage Theme Starter v8.5.0](https://github.com/roots/sage/tree/8.5.0). For Better bugs tracking you can open new issue  [https://github.com/riobahtiar/sg-tkpd/issues](https://github.com/riobahtiar/sg-tkpd/issues) 
 
 ## Requirements
 
@@ -98,3 +98,4 @@ If your local development URL looks like `http://localhost:8888/project-name/` y
 * First time release
 * Update dependencies
 * Change Bootstrap 4.0.0-alpha.4 to Bootstrap 3.7.0 because we will use in production.
+* Add some developer notes
