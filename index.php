@@ -117,7 +117,7 @@
                         <span class="ngo-name__name txt--black txt--primary lh--28">Qurban Mubarak</span>
                     </div>
                     <div class="text-center">
-                        <a href="#">
+                        <a href="https://www.tokopedia.com/lazalazhar">
                             <div class="btn-tkpd btn--green btn--medium">Cek Sekarang</div>
                         </a>
                     </div>
@@ -178,7 +178,7 @@
                         pembayaran yang tersedia di Tokopedia. Ayo salurkan Kurban dengan 
                         lebih mudah dan tepat sasaran melalui Tokopedia.
                     </div>
-                    <div class="text-center">
+                    <div class="kurban-btn">
                         <div class="btn-tkpd btn--green btn--big">Cek Sekarang</div>
                     </div>
                 </div>
@@ -203,7 +203,7 @@
                 </div>
                 <div class="cta-btncta">
                     <a href="https://www.tokopedia.com/" class="btn-tkpd btn--orange btn--medium">
-                        Cek Sekarang
+                        Belanja Sekarang
                     </a>
                 </div>
             </div>

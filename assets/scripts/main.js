@@ -252,6 +252,12 @@
           $('#header').css('margin-top', '32px');
         }
 
+        $('.kurban-btn').click(function(){
+          $('html, body').animate({
+            scrollTop: $('.section_ngo').offset().top
+          }, 500);
+        });
+
       },
       finalize: function() {
         // JavaScript to be fired on all pages, after page specific JS is fired

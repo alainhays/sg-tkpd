@@ -86,7 +86,6 @@ if(!isset($_GET['flag_app'])) {
 		<?php //dynamic_sidebar( 'topnav-widget' ); ?>
 	</div> 
   </div>
-</div>
 </header>
 
 <?php

@@ -141,6 +141,8 @@ body {
         position: relative;
         top: 0;
         transform: none;
+        max-width: 55%;
+        margin: 0 auto;
     }
     &__image {
         max-width: 70%;
@@ -149,6 +151,13 @@ body {
 }
 
 .kurban-title {
+    @include breakpoint(smd) {
+        text-align: center;
+    }
+}
+
+.kurban-btn {
+    text-align: left;
     @include breakpoint(smd) {
         text-align: center;
     }

@@ -10743,7 +10743,9 @@ body {
       top: 0;
       -webkit-transform: none;
            -o-transform: none;
-              transform: none; } }
+              transform: none;
+      max-width: 55%;
+      margin: 0 auto; } }
   .kurban-image__image {
     max-width: 70%;
     height: auto; }
@@ -10751,6 +10753,12 @@ body {
 @media (max-width: 992px) {
   .kurban-title {
     text-align: center; } }
+
+.kurban-btn {
+  text-align: left; }
+  @media (max-width: 992px) {
+    .kurban-btn {
+      text-align: center; } }
 
 .section_cta {
   background-color: #42B549;
