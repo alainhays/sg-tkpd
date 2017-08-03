@@ -1,0 +1,116 @@
+.tkpd-form {
+  label{
+    font-weight: 600;
+    display:block;
+    color:rgba(0,0,0,.7);
+  }
+
+	.tkpd-input{
+		margin-bottom: 15px;
+		position: relative;
+		& .prepend{
+			position: absolute;
+			top:35px;
+			left:10px;
+			font-weight: bold;
+		}
+		&.select .icon{
+			position: absolute;
+			right:20px;
+			top:35px;
+			font-family: FontAwesome;
+			font-size:1.3em;
+			cursor: pointer;
+		}
+		&.select input[readonly="true"]{
+			cursor: pointer;
+		}
+		& ul.select{
+			position: absolute;
+			z-index: 2;
+			top:25px;
+			left:0;
+			width: 100%;
+			background:#fff;
+			box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+			display:none;
+			opacity: 0;
+			transition:all .3s ease;
+			&.offset{
+			top:68px;
+			}
+			& .option{
+			padding:10px 25px;
+			cursor: pointer;
+			&:hover{
+				background:rgba(0,0,0,.1);
+			}
+			&.default{
+				color:rgba(0,0,0,.58);
+				&:hover{
+				background: #fff;
+				}
+			}
+			}
+		}
+		&.file {
+			& label {
+				width:100%;
+				border-radius:3px;
+				border:1px solid #ccc;
+				outline:none;
+				position: relative;
+				& span {
+					color: rgba(0, 0, 0, 0.58);
+					padding-left: 14px;
+					border-right: 1px solid #ccc;
+					padding-top: 10px;
+					padding-bottom: 10px;
+					display: block;
+					max-width: 90px;
+					background-color: #F8F8F8;
+				}
+			}
+		}
+		& .file-name {
+			position: absolute;
+    		top: 10px;
+    		left: 100px;
+		}
+		& input[type="file"] {
+			display: none;
+		}
+	}
+
+	input{
+		width:100%;
+		border-radius:3px;
+		border:1px solid #ccc;
+		padding:10px 5px;
+		outline:none;
+		&:focus{
+			border-color:#42b549;
+		}
+		&:invalid{
+			border-color:red;
+		}
+		&:disabled{
+			background:#e3e3e3;
+			cursor: not-allowed;
+		}
+	}
+
+	textarea {
+		@extend input;
+		resize: vertical;
+	}
+
+	.info{
+		color:rgba(0,0,0,.58);
+		font-size:.9em;
+		line-height: 1.7;
+		&.error{
+			color:red;
+		}
+	}
+}

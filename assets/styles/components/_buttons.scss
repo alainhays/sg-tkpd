@@ -1,0 +1,98 @@
+.btn-tkpd {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 600;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    border-radius: 3px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-transform: capitalize;
+}
+
+.btn--orange {
+    background-color: #FF5722;
+    color: #FFF;
+    border: 1px solid #FF5722;
+    transition: background-color 0.2s ease;
+    &:hover {
+        background-color: #EF430C;
+        color: #FFF;
+    }
+    &:focus {
+        color: #FFF;
+        text-decoration: none;
+    }
+}
+
+.btn--green {
+    background-color: #42B549;
+    color: #FFF;
+    border: 1px solid #42B549;
+    transition: background-color 0.2s ease;
+    &:hover {
+        background-color: #4FA149;
+        color: #FFF;
+    }
+    &:focus {
+        color: #FFF;
+        text-decoration: none;
+    }
+}
+
+.btn--ghost {
+    background-color: #FFF;
+    color: rgba(0, 0, 0, 0.54);
+    border: 1px solid #E0E0E0;
+    transition: background-color 0.2s ease;
+    &:hover {
+        background-color: #F5F5F5;
+        color: rgba(0, 0, 0, 0.54);
+    }
+    &:focus {
+        color:rgba(0, 0, 0, 0.54);
+        text-decoration: none;
+    }
+}
+
+.btn--disabled {
+    background-color: #E0E0E0;
+    color: rgba(0, 0, 0, .26);
+    border: 1px solid #E0E0E0;
+    cursor: not-allowed;
+    &:hover {
+        color: rgba(0, 0, 0, .26); 
+    }
+    &:focus {
+        color: rgba(0, 0, 0, .26);
+        text-decoration: none;
+    }
+}
+
+.btn--small {
+    font-size: 11px;
+    padding: 6.5px;
+}
+
+.btn--medium {
+    font-size: 13px;
+    padding: 10px;
+}
+
+.btn--big {
+    font-size: 14px;
+    padding: 15px;
+}
+
+.btn--block {
+    display: block;
+    width: 100%;
+}

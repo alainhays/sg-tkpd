@@ -1,0 +1,28 @@
+@import "common/variables";
+
+// Automatically injected Bower dependencies via wiredep (never manually edit this block)
+// bower:scss
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "../../bower_components/font-awesome/scss/font-awesome.scss";
+@import "../../bower_components/basscss-sass/scss/_margin.scss";
+@import "../../bower_components/basscss-sass/scss/_padding.scss";
+@import "../../bower_components/basscss-sass/scss/_responsive-margin.scss";
+@import "../../bower_components/basscss-sass/scss/_responsive-padding.scss";
+@import "../../bower_components/basscss-sass/scss/_typography.scss";
+// endbower
+
+@import "common/global";
+@import "components/wp-classes";
+@import "components/buttons";
+@import "components/typography";
+@import "components/forms";
+@import "layouts/header";
+@import "layouts/sidebar";
+@import "layouts/footer";
+@import "layouts/pages";
+@import "layouts/posts";
+@import "layouts/tinymce";
+@import "layouts/drawer-menu";
+@import "layouts/bw";
+@import "layouts/index";
+@import "layouts/awards";

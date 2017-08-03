@@ -1,0 +1,49 @@
+// Grid settings
+$main-sm-columns:       12;
+$sidebar-sm-columns:    4;
+
+// Colors
+$tkpd-green: #42B549;
+$tkpd-orange: #FF5722;
+$tkpd-black: #000;
+$tkpd-white: #FFF;
+
+// Mixin Breakpoints - Bootstrap Values
+@mixin breakpoint($class) {
+
+  @if $class == 320 {
+    @media (max-width: 320px) { @content; }
+  }
+
+  @else if $class == min480 {
+    @media (min-width: 480px) { @content; }
+  }
+
+  @else if $class == xxs {
+    @media (max-width: 500px) { @content; }
+  }
+
+  @else if $class == xs {
+    @media (max-width: 767px) { @content; }
+  }
+
+  @else if $class == sm {
+    @media (min-width: 768px) { @content; }
+  }
+
+  @else if $class == smd {
+    @media (max-width: 992px) { @content; }
+  }
+
+  @else if $class == md {
+    @media (min-width: 992px) { @content; }
+  }
+
+  @else if $class == lg {
+    @media (min-width: 1200px) { @content; }
+  }
+
+  @else {
+    @warn "Breakpoint mixin supports: xs, sm, md, lg";
+  }
+}

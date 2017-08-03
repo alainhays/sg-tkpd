@@ -1,0 +1,176 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.row-centered {
+    text-align: center;
+    overflow: hidden;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+.relative {
+    position: relative;
+}
+
+//Qurban Start
+
+body {
+    font-family: "Open Sans";
+}
+
+.section_banner {
+    height: 250px;
+    background-color: $tkpd-green;
+}
+
+/////////////////
+.section_ngo {
+    background-color: #FFF;
+    padding-top: 64px;
+    padding-bottom: 39px;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.ngo-title {
+    &__title {
+
+    }
+}
+
+.ngo-container {
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    border-radius: 3px;
+    padding: 20px;
+    margin-bottom: 25px;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ngo-image {
+    &__image {
+        max-width: 150px;
+        height: auto;
+        border: 1px solid #CCC;
+        border-radius: 50%;
+    }
+}
+
+.ngo-name {
+    padding-bottom: 0;
+    height: 88px;
+}
+///////////////////
+.section_donasi {
+    background-color: $tkpd-green;
+    padding: 60px 0;
+    position: relative;
+    z-index: 2;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .5);
+}
+
+.donasi-img {
+    &__img {
+
+    }
+}
+
+.donasi-desc {
+    &__desc {
+        display: block;
+    }
+}
+///////////////////
+.section_kurban {
+    background-color: #F8F8F8;
+}
+
+.kurban-image {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    @include breakpoint(smd) {
+        position: relative;
+        top: 0;
+        transform: none;
+    }
+    &__image {
+        max-width: 70%;
+        height: auto;
+    }
+}
+
+.kurban-title {
+    @include breakpoint(smd) {
+        text-align: center;
+    }
+}
+///////////////////
+.section_cta {
+    background-color: $tkpd-green;
+    padding-top: 30px;
+    padding-bottom: 64px;
+    @include breakpoint(xxs) {
+        padding-top: 64px;
+    }
+}
+
+.divider--wave {
+    background: url('../../assets/images/divider-bottom.png') no-repeat #F8F8F8;
+    background-size: cover;
+    height: 100px;
+}
+
+.divider--streak {
+    background: url('../../assets/images/divider-streak-bottom.png') no-repeat #F8F8F8;
+    background-size: cover;
+    height: 150px;
+}

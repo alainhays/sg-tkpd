@@ -1,0 +1,77 @@
+#header {
+    position: fixed;
+    z-index: 100;
+    padding: 6px 0;
+    background: #42b549;
+    width: 100%;
+    margin: 0 auto;
+    height: 50px;
+    top: 0;
+}
+
+.header__title {
+    font-size: 1.6em;
+    margin-top: 0;
+    line-height: 32px;
+}
+
+.bg-no-repeat {
+    background-repeat: no-repeat;
+}
+
+.bg-cover {
+    background-size: cover;
+}
+
+.top-navigation-logo {
+    @include breakpoint(xs) {
+        display: block;
+        float: none;
+        width: 220px;
+        margin: 5px auto;
+        margin-bottom: 8px;
+        text-align: center;
+    }
+    @include breakpoint(sm) {
+        display: block;
+        float: none;
+        width: 220px;
+        margin: 5px auto;
+        margin-bottom: 8px;
+        text-align: center;
+    }
+    @include breakpoint(md) {
+        float: left;
+        width: 17%;
+        margin: 0;
+        text-align: left;
+    }
+}
+
+.site-logo {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.site__logo {
+    display: block;
+    height: 33px;
+    width: auto;
+    margin-top: 4px;
+    @include breakpoint(smd) {
+        margin-top: 0;
+    }
+}
+
+.header-menu {
+    float: left;
+    margin-top: 6px;
+    @include breakpoint(sm) {
+        float: right;
+    }
+}
+
+.page-header {
+    margin: 51px 0 20px;
+}
+

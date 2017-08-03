@@ -1,0 +1,54 @@
+.placeholder {
+    height: 200px;
+    background-color: #FFF;
+}
+.section_forms {
+
+}
+.section_forms::before {
+    content: "";
+    -webkit-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+    -webkit-transform: skewY(-2.8deg);
+    -o-transform: skewY(-2.8deg);
+    transform: skewY(-2.8deg);
+    box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+    display: block;
+    background-color: #42B549;
+    height: 40%;
+    width: 100%;
+    z-index: 0;
+    position: absolute;
+    top: 160px;
+}
+.section_forms::after {
+    content: "";
+    transform-origin: 0 100%;
+    transform: skewY(2.8deg);
+    -webkit-box-shadow: inset 0px -1px 2px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: inset 0px -1px 2px 0px rgba(0,0,0,0.2);
+    box-shadow: inset 0px -1px 2px 0px rgba(0,0,0,0.2);
+    display: block;
+    background-color: #42B549;
+    height: 40%;
+    width: 100%;
+    z-index: 0;
+    position: absolute;
+    top: 232px;
+}
+.forms-award {
+    background-color: #FFF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 5%;
+    border-radius: 3px;
+    z-index: 1;
+    position: relative
+}
+.form-in, .form-out {
+    height: 50px;
+    background-color: #42B549;
+}
+.form-in {
+    transform: skewY(-5deg);
+}

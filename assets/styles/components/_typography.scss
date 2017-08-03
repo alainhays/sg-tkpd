@@ -1,0 +1,261 @@
+/*===========
+/ Font Color
+//===========*/
+
+.txt--white {
+    color: $tkpd-white;
+}
+
+.txt--black {
+    color: $tkpd-black;
+}
+
+.txt--orange {
+   color: $tkpd-orange; 
+}
+
+.txt--primary {
+    opacity: 0.7;
+}
+
+.txt--secondary {
+    opacity: 0.54;
+}
+
+.txt--disabled {
+    opacity: 0.38;
+}
+
+/*===========
+/ Font Style
+//===========*/
+
+.fs--dsp4 {
+    font-size: 112px;
+    font-weight: 300;
+    @include breakpoint(xxs) {
+        font-size: 98px;
+    }
+}
+
+.fs--dsp3 {
+    font-size: 56px;
+    font-weight: 400;
+    @include breakpoint(xxs) {
+        font-size: 45px;
+    }
+}
+
+.fs--dsp2 {
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 48px;
+    @include breakpoint(xxs) {
+        font-size: 34px;
+    }
+}
+
+.fs--dsp1 {
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 40px;
+    @include breakpoint(xxs) {
+        font-size: 28px;
+    }
+}
+
+.fs--headline {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    @include breakpoint(xxs) {
+        font-size: 20px;
+    }
+}
+
+.fs--title {
+    font-size: 20px;
+    font-weight: 500;
+    @include breakpoint(xxs) {
+        font-size: 16px;
+    }
+}
+
+.fs--subheading {
+    font-size: 16px;
+    font-weight: 400;
+    @include breakpoint(xxs) {
+        font-size: 14px;
+    }
+}
+
+.fs--subheading2 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    @include breakpoint(xxs) {
+        font-size: 14px;
+    }
+}
+
+.fs--subheading1 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    @include breakpoint(xxs) {
+        font-size: 14px;
+    }
+}
+
+.fs--body2 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    @include breakpoint(xxs) {
+        font-size: 12px;
+    }
+}
+
+.fs--body1 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    @include breakpoint(xxs) {
+        font-size: 12px;
+    }
+}
+
+.fs--button {
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    @include breakpoint(xxs) {
+        font-size: 12px;
+    }
+}
+
+.fs--caption {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+/*===========
+/ Font Size
+//===========*/
+
+.fs--112 {
+    font-size: 112px;
+    @include breakpoint(xxs) {
+        font-size: 98px;
+    }
+}
+
+.fs--56 {
+    font-size: 56px;
+    @include breakpoint(xxs) {
+        font-size: 45px;
+    }
+}
+
+.fs--45 {
+    font-size: 45px;
+    @include breakpoint(xxs) {
+        font-size: 34px;
+    }
+}
+
+.fs--34 {
+    font-size: 34px;
+    @include breakpoint(xxs) {
+        font-size: 28px;
+    }
+}
+
+.fs--24 {
+    font-size: 24px;
+    @include breakpoint(xxs) {
+        font-size: 20px;
+    }
+}
+
+.fs--20 {
+    font-size: 20px;
+    @include breakpoint(xxs) {
+        font-size: 16px;
+    }
+}
+
+.fs--16 {
+    font-size: 16px;
+    @include breakpoint(xxs) {
+        font-size: 14px;
+    }
+}
+
+.fs--15 {
+    font-size: 15px;
+}
+
+.fs--14 {
+    font-size: 14px;
+    @include breakpoint(xxs) {
+        font-size: 12px;
+    }
+}
+
+.fs--13 {
+    font-size: 13px;
+}
+
+.fs--12 {
+    font-size: 12px;
+}
+
+/*============
+/ Font Weight
+//============*/
+
+.fw--lite {
+    font-weight: 300;
+}
+
+.fw--reg {
+    font-weight: 400;      
+}
+
+.fw--med {
+    font-weight: 500;
+}
+
+.fw--smb {
+    font-weight: 600;
+}
+
+/*============
+/ Line Height
+//============*/
+
+.lh--48 {
+    line-height: 48px;
+}
+
+.lh--40 {
+    line-height: 40px;
+}
+
+.lh--32 {
+    line-height: 32px;
+}
+
+.lh--28 {
+    line-height: 28px;
+}
+
+.lh--24 {
+    line-height: 24px;
+}
+
+.lh--20 {
+    line-height: 20px;
+}
+
