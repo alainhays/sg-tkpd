@@ -64,8 +64,15 @@ body {
 }
 
 .section_banner {
-    height: 250px;
-    background-color: $tkpd-green;
+    // height: 250px;
+    background-color: #FFF;
+}
+
+.banner-img {
+    &__img {
+        min-width: 100%;
+        height: auto;
+    }
 }
 
 /////////////////
@@ -75,7 +82,7 @@ body {
     padding-bottom: 39px;
     position: relative;
     z-index: 1;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    // box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
 .ngo-title {

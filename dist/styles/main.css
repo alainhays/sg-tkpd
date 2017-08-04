@@ -10687,16 +10687,18 @@ body {
   font-family: "Open Sans"; }
 
 .section_banner {
-  height: 250px;
-  background-color: #42B549; }
+  background-color: #FFF; }
+
+.banner-img__img {
+  min-width: 100%;
+  height: auto; }
 
 .section_ngo {
   background-color: #FFF;
   padding-top: 64px;
   padding-bottom: 39px;
   position: relative;
-  z-index: 1;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); }
+  z-index: 1; }
 
 .ngo-container {
   background-color: #FFF;

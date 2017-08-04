@@ -1,5 +1,7 @@
-<section class="section_banner py4">
-
+<section class="section_banner">
+    <div class="banner-img">
+        <img src="https://ecs7.tokopedia.net/assets/images/qurban/qurban_banner.jpg" alt="" class="banner-img__img img-responsive">
+    </div>
 </section>
 
 <section class="section_ngo">
@@ -146,7 +148,7 @@
                     Donasi Sekarang
                 </div>
             </a>
-            <a href="https://www.tokopedia.com/berbagi/blog/">
+            <a href="https://www.tokopedia.com/blog/berkurban-dimulai-dari-tokopedia/">
                 <div class="btn-tkpd txt--white fs--14" style="margin-left: 8px;">
                     Lihat Blog <i class="fa fa-angle-right" aria-hidden="true"></i>
                 </div>
